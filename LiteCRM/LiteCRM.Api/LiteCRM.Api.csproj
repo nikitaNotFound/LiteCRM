@@ -11,6 +11,11 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\LiteCRM.Api.Contracts\LiteCRM.Api.Contracts.csproj" />
+      <ProjectReference Include="..\LiteCRM.Application.AspNet.ExceptionHandling\LiteCRM.Application.AspNet.ExceptionHandling.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
       <Folder Include="Controllers" />
     </ItemGroup>
 

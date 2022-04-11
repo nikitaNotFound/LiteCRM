@@ -1,8 +1,13 @@
+using LiteCRM.Application.AspNet.ExceptionHandling.Extensions;
+using LiteCRM.Application.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddApplication(builder.Configuration);
 
 var app = builder.Build();
 
@@ -17,5 +22,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseApplicationExceptionsHandling();
 
 app.Run();

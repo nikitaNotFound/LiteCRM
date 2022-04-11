@@ -14,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteCRM.Domain", "LiteCRM.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteCRM.Persistence", "LiteCRM.Persistence\LiteCRM.Persistence.csproj", "{1BA2F1A8-8A92-47E1-9F82-62C30B1F634B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteCRM.Application.AspNet", "LiteCRM.Application.AspNet\LiteCRM.Application.AspNet.csproj", "{7901FF72-D40B-4753-9BB6-7F861DA3055D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteCRM.Application.AspNet.ExceptionHandling", "LiteCRM.Application.AspNet.ExceptionHandling\LiteCRM.Application.AspNet.ExceptionHandling.csproj", "{7901FF72-D40B-4753-9BB6-7F861DA3055D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteCRM.Application.Tests", "LiteCRM.Application.Tests\LiteCRM.Application.Tests.csproj", "{AA60295B-E4FB-43D5-BF30-8DFED67A6506}"
 EndProject
